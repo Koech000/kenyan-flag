@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+        <title>Kenyan Flag</title>
+    </head>
+    <style>
+        .flag{
+            width: 900px;
+            height: 600px;
+            position: relative;
+        }
+        .black-stripe{
+            background-color: #000000;
+            width: 100%;
+            height: 200px;
+        }  
+        .black-stripe p{
+            color: white;
+            font-size: 5rem;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        } 
+
+        .white-stripe-top{
+            background-color: #FFFFFF;
+            width: 100%;
+            height: 20px;
+        }
+        .red-stripe{
+            background-color: #FF0000;
+            width: 100%;
+            height: 160px;
+        }
+        
+        .white-stripe-bottom{
+            background-color: #FFFFFF;
+            width: 100%;
+            height: 20px;
+        
+        }
+        .green-stripe{
+            background-color: #006600;
+            width: 100%;
+            height: 200px;
+        }
+        .shield-oval{
+            position: absolute;
+            top: 150px;
+            left: 350px;
+            width: 200px;
+            height: 300px;
+            background-color: #FFFFFF;
+            border-radius: 150px / 175px;
+            z-index: 2;
+        }
+        .shield-triangle-left{
+            position: absolute;
+            top: 0;
+            left: 25px;
+            width: 0;
+            height: 0;
+            border-top: 125px solid transparent;
+            border-bottom: 125px solid transparent;
+            border-right: 75px solid #000000;
+            z-index: 3;
+        }       
+        .shield-triangle-right{
+            position: absolute;
+            top: 0;
+            right: 25px;
+            width: 0;
+            height: 0;
+            border-top: 125px solid transparent;
+            border-bottom: 125px solid transparent;
+            border-left: 75px solid #000000;
+            z-index: 3;
+        } 
+        .shield-triangle-left p{
+            color: green;
+            font-size: 3rem;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        .shield-triangle-right p{
+            color:green;
+            font-size: 3rem;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        .green-stripe p{
+            color: white;
+            font-size: 5rem;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        .spear-left{
+            position: absolute;
+            top: 25px;
+            left: 60px;
+            width: 0;
+            height: 10px;
+            border-left: 10px solid #FFFFFF;
+            border-top: 100px solid transparent;
+            border-bottom: 100px solid transparent;
+            transform: rotate(-20deg);
+            z-index: 4;
+        }
+        .spear-right{
+            position: absolute;
+            top: 25px;
+            right: 60px;
+            width: 0;
+            height: 0;
+            border-right: 10px solid #FFFFFF;
+            border-top: 100px solid transparent;
+            border-bottom: 100px solid transparent;
+            transform: rotate(20deg);
+            z-index: 4;
+        }   
+
+    </style>
+    <body>
+        <div class="flag">
+            <div class="black-stripe"><p>flag</p></div>
+            <div class="white-stripe-top"></div>
+            <div class="red-stripe"><p>of</p></div>
+            <div class="white-stripe-bottom"></div>
+            <div class="green-stripe"><p>Kenya</p></div>
+            <div class="shield-oval">
+                <div class="shield-triangle-left"><p>o</p></div>
+                <div class="shield-triangle-right"><p>f</p></div>
+                <div class="spear-left"></div>
+                <div class="spear-right"></div>     
+            </div>
+        </div>
+    </body>
+</html>
